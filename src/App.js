@@ -5,6 +5,7 @@ import "./App.css";
 import FirstComponent from "./components/FirstComponent";
 import TemplateExpressions from "./components/TemplateExpressions";
 import Events from "./components/Events";
+import ManageData from "./components/ManageData";
 
 function App() {
 	return (
@@ -15,6 +16,9 @@ function App() {
 			<TemplateExpressions />
 			<Events />
 			<h2>Meu Emmet coisa linda de ai meu deus</h2>
+      <div>
+        <ManageData />
+      </div>
 		</div>
 	);
 }

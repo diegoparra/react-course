@@ -7,6 +7,7 @@ import TemplateExpressions from "./components/TemplateExpressions";
 import Events from "./components/Events";
 import ManageData from "./components/ManageData";
 import ListRender from "./components/ListRender";
+import ConditionalRender from "./components/ConditionalRender";
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
       </div>
       <div>
         <ListRender />
+      </div>
+      <div>
+        <ConditionalRender />
       </div>
     </div>
   );
